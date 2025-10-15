@@ -1,6 +1,6 @@
-System.register("chunks:///_virtual/dummy_text",["./Script1.ts"],(function(){return{setters:[null],execute:function(){}}}));
+System.register("chunks:///_virtual/dummy_text",["./loader.ts"],(function(){return{setters:[null],execute:function(){}}}));
 
-System.register("chunks:///_virtual/Script1.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(t){var r,c,n,e;return{setters:[function(t){r=t.inheritsLoose},function(t){c=t.cclegacy,n=t._decorator,e=t.Component}],execute:function(){var o;c._RF.push({},"b5d1cvSkWxEk6M46uYeqI70","Script1",void 0);var i=n.ccclass;n.property,t("Script1",i("Script1")(o=function(t){function c(){return t.apply(this,arguments)||this}r(c,t);var n=c.prototype;return n.start=function(){},n.update=function(t){},c}(e))||o);c._RF.pop()}}}));
+System.register("chunks:///_virtual/loader.ts",["./rollupPluginModLoBabelHelpers.js","cc"],(function(o){var t,e,n,r;return{setters:[function(o){t=o.inheritsLoose},function(o){e=o.cclegacy,n=o._decorator,r=o.Component}],execute:function(){var c;e._RF.push({},"595d5CA245D7ZoqAzzkoSDd","loader",void 0);var a=n.ccclass;n.property,o("loader",a("loader")(c=function(o){function e(){return o.apply(this,arguments)||this}t(e,o);var n=e.prototype;return n.onLoad=function(){console.log("loader onLoad")},n.start=function(){console.log("loader start")},n.update=function(o){},e}(r))||c);e._RF.pop()}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/dummy_text', 'chunks:///_virtual/dummy_text'); 
